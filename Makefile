@@ -55,6 +55,5 @@ install: all
 	$(INSTALL) -m 0644 $(CURDIR)/src/python/compile_sandbox.py $(PREFIX)/lib/nemesis/python
 	$(INSTALL) -m 0644 $(CURDIR)/src/proto/build/nemesis_pb2.py $(PREFIX)/lib/nemesis/python
 	$(INSTALL) -m 0644 $(CURDIR)/src/proto/default_nemesis_proto.py $(PREFIX)/lib/nemesis/python
-	$(INSTALL) -m 0644 $(CURDIR)/src/utilities/ram2cpp.awk $(PREFIX)/lib/nemesis/ram2cpp
 
 .PHONY: all jail test prepare clean install
