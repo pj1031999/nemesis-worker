@@ -1,0 +1,6 @@
+[submodule "src/jail"]
+	path = src/jail
+	url = git@github.com:pj1031999/nemesis-jail.git
+[submodule "src/proto"]
+	path = src/proto
+	url = git@github.com:pj1031999/nemesis-proto.git
